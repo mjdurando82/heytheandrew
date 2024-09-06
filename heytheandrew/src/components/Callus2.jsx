@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 
-const Callus = () => {
+const Callus2 = () => {
   return (
-    <div className='bg-callus w-full h-screen bg-contain bg-center bg-no-repeat relative'>
+    <div className='bg-callus2 w-full h-screen bg-contain bg-center bg-no-repeat relative'>
       <div className="absolute inset-0 pointer-events-none">
       </div>
       <div className="absolute inset-0">
@@ -41,4 +41,4 @@ const Callus = () => {
   )
 }
 
-export default Callus
+export default Callus2
