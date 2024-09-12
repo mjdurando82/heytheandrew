@@ -10,8 +10,8 @@ const ApArt = () => {
           <div
             className="absolute"
             style={{
-              top: '5%', // Adjust these values
-              left: '15%', // Adjust these values
+              top: '5%',
+              left: '15%', 
               transform: 'translate(-53%, -50%)',
             }}
           >
@@ -30,7 +30,7 @@ const ApArt = () => {
             }}
           >
             <div className="w-[13vw] h-[1vh] bg-red-500 opacity-0 cursor-pointer py-6 w-40">
-              <Link to="/ap=art2" className="block h-full w-full flex items-center justify-center text-white">
+              <Link to="/ap-art2" className="block h-full w-full flex items-center justify-center text-white">
                 Next Page
               </Link>
             </div>
