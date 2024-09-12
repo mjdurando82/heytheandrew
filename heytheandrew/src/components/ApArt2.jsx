@@ -31,12 +31,12 @@ const ApArt2 = () => {
               </Link>
             </div>
           </div>
-          <div className="absolute max-w-60" style={{ bottom: '5%', right: '9%' }}>
+          <div className="absolute max-w-60" style={{ bottom: '5%', right: '9.5%' }}>
             <p className="text-sm text-center">
             Each of these photos were taken by Abby Kirsten.
             <br />
             See her other work 
-            <Link className="text-red-500 hover:text-red-800" to=""> here.</Link>
+            <Link className="text-red-500 hover:text-red-800" to="https://www.instagram.com/abbyk.photos/"> here.</Link>
             </p>
           </div>
         </div>
