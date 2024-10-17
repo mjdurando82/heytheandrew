@@ -36,7 +36,7 @@ const ApArt2 = () => {
             Each of these photos were taken by Abby Kirsten.
             <br />
             See her other work 
-            <Link className="text-red-500 hover:text-red-800" to="https://www.instagram.com/abbyk.photos/"> here.</Link>
+            <Link className="text-red-500 hover:text-red-800" to="https://www.instagram.com/abbyk.photos/" target="_blank"> here.</Link>
             </p>
           </div>
         </div>
