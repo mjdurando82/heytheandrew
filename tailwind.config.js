@@ -10,7 +10,8 @@ module.exports = {
         callus3: "url('/public/images/CALLUS3.png')",
         apArt: "url('/public/images/ApArt.png')",
         apArt2: "url('/public/images/ApArt2.png')",
-        cbs: "url('/public/images/Cbs.png')"
+        cbs: "url('/public/images/Cbs.png')",
+        wader: "url('/public/images/WADER.png')"
       }
     }
   },

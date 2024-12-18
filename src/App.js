@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import Cbs from './components/Cbs'
 import Home from './components/Home'
+import Wader from './components/Wader'
 import ApArt from './components/ApArt'
 import ApArt2 from './components/ApArt2'
 import Callus from './components/Callus'
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/callus" element={<Callus />} />
           <Route path="/callus-2" element={<Callus2 />} />
           <Route path="/callus-3" element={<Callus3 />} />
+          <Route path="/wader" element={<Wader />} />
         </Routes>
       </main>
     </div>
