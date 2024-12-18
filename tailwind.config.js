@@ -8,7 +8,8 @@ module.exports = {
         callus: "url('/public/images/CALLUS.png')",
         callus2: "url('/public/images/CALLUS2.png')",
         apArt: "url('/public/images/ApArt.png')",
-        apArt2: "url('/public/images/ApArt2.png')"
+        apArt2: "url('/public/images/ApArt2.png')",
+        cbs: "url('/public/images/Cbs.png')"
       }
     }
   },

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 
-const ApArt2 = () => {
+const Cbs = () => {
   return (
-    <div className='bg-apArt2 w-full h-screen bg-contain bg-center bg-no-repeat relative'>
+    <div className='bg-cbs w-full h-screen bg-contain bg-center bg-no-repeat relative'>
       <div className="absolute inset-0 pointer-events-none">
       </div>
       <div className="absolute inset-0">
@@ -23,21 +23,17 @@ const ApArt2 = () => {
           </div>
           <div
             className="absolute"
-            c
+            style={{
+              bottom: '0%', // Adjust these values
+              right: '1%', // Adjust these values
+              transform: 'translate(-53%, -50%)',
+            }}
           >
             <div className="w-[13vw] h-[1vh] bg-red-500 opacity-0 cursor-pointer py-6 w-40">
-              <Link to="/ap=art2" className="block h-full w-full flex items-center justify-center text-white">
+              <Link to="/" className="block h-full w-full flex items-center justify-center text-white">
                 Next Page
               </Link>
             </div>
-          </div>
-          <div className="absolute max-w-60" style={{ bottom: '5%', right: '9.5%' }}>
-            <p className="text-sm text-center">
-            Each of these photos were taken by Abby Kirsten.
-            <br />
-            See her other work 
-            <Link className="text-red-500 hover:text-red-800" to="https://www.instagram.com/abbyk.photos/" target="_blank"> here.</Link>
-            </p>
           </div>
         </div>
       </div>
@@ -45,4 +41,4 @@ const ApArt2 = () => {
   )
 }
 
-export default ApArt2
+export default Cbs
