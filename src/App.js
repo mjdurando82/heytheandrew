@@ -7,6 +7,7 @@ import ApArt from './components/ApArt'
 import ApArt2 from './components/ApArt2'
 import Callus from './components/Callus'
 import Callus2 from './components/Callus2'
+import Callus3 from './components/Callus3'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/cbs" element={<Cbs />} />
           <Route path="/callus" element={<Callus />} />
           <Route path="/callus-2" element={<Callus2 />} />
+          <Route path="/callus-3" element={<Callus3 />} />
         </Routes>
       </main>
     </div>
