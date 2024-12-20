@@ -26,7 +26,7 @@ const Callus = () => {
             style={{
               bottom: '0%', // Adjust these values
               right: '1%', // Adjust these values
-              transform: 'translate(-53%, -50%)',
+              transform: 'translate(-53%, -40%)',
             }}
           >
             <div className="w-[13vw] h-[1vh] bg-red-500 opacity-0 cursor-pointer py-6 w-40">

@@ -25,15 +25,10 @@ const ApArt2 = () => {
             className="absolute"
             c
           >
-            <div className="w-[13vw] h-[1vh] bg-red-500 opacity-0 cursor-pointer py-6 w-40">
-              <Link to="/ap=art2" className="block h-full w-full flex items-center justify-center text-white">
-                Next Page
-              </Link>
-            </div>
           </div>
-          <div className="absolute max-w-60" style={{ bottom: '5%', right: '9.5%' }}>
+          <div className="absolute max-w-60" style={{ bottom: '4.1%', right: '11%' }}>
             <p className="text-sm text-center">
-            Each of these photos were taken by Abby Kirsten.
+            Abby Kirsten.
             <br />
             See her other work 
             <Link className="text-red-500 hover:text-red-800" to="https://www.instagram.com/abbyk.photos/" target="_blank"> here.</Link>

@@ -32,11 +32,29 @@ const Home = () => {
           </Link>
         </div>
       </div>
+
+      {/* GRAPHIC DESIGN BUTTON */}
+      <div className="absolute" style={{ top: '5.8%', right: '17%', transform: 'translate(-50%, -50%)', zIndex: 10 }}>
+        <div className="w-[18vw] h-[5vh] bg-red-500 opacity-0 cursor-pointer py-16">
+          <Link to="/graphic-design" className="block h-full w-full flex items-center justify-center text-white">
+            GRAPHIC DESIGN
+          </Link>
+        </div>
+      </div>
+
+      {/* WADER Button*/}
+      <div className="absolute" style={{ top: '51%', right: '5%', transform: 'translate(-50%, -50%)', zIndex: 10 }}>
+        <div className="w-[10vw] h-[5vh] bg-red-500 opacity-0 cursor-pointer py-9">
+          <Link to="/wader" className="block h-full w-full flex items-center justify-center text-white">
+            WADER
+          </Link>
+        </div>
+      </div>
       
       {/* RESUME Button */}
       <div className="absolute" style={{ top: '42%', right: '40%', transform: 'translate(-10%, -50%)', zIndex: 10 }}>
         <div className="w-[16vw] h-[16vh] bg-red-500 opacity-0 cursor-pointer py-9">
-          <Link to="https://docs.google.com/document/d/1f4NceAsjwlohGQO05duVJD-LV26ia0ZxnTrng3ER0vk/edit?tab=t.0" target='_blank' className="block h-full w-full flex items-center justify-center text-white">
+          <Link to="https://docs.google.com/document/d/18xx9OdQV9t7Yq14PziDI-ZXuDQWLfrxcA2C8Nl5syow/edit?tab=t.0" target='_blank' className="block h-full w-full flex items-center justify-center text-white">
           RESUME
           </Link>
         </div>

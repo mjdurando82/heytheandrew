@@ -26,11 +26,11 @@ const Callus2 = () => {
             style={{
               bottom: '0%', // Adjust these values
               right: '1%', // Adjust these values
-              transform: 'translate(-53%, -50%)',
+              transform: 'translate(-53%, -40%)',
             }}
           >
             <div className="w-[13vw] h-[1vh] bg-red-500 opacity-0 cursor-pointer py-6 w-40">
-              <Link to="/callus-2" className="block h-full w-full flex items-center justify-center text-white">
+              <Link to="/callus-3" className="block h-full w-full flex items-center justify-center text-white">
                 Next Page
               </Link>
             </div>
