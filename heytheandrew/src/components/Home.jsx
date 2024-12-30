@@ -7,8 +7,8 @@ const Home = () => {
       <div className="absolute inset-0 pointer-events-none"></div>
 
       {/* Callus Button*/}
-      <div className="absolute" style={{ top: '73.7%', left: '24.5%', transform: 'translate(-50%, -50%)', zIndex: 10 }}>
-        <div className="w-[10vw] h-[5vh] bg-red-500 opacity-0 cursor-pointer py-9">
+      <div className="absolute" style={{ top: '73.7%', left: '24.5%', transform: 'translate(-50%, -45%)', zIndex: 10 }}>
+        <div className="w-[10vw] h-[5vh] bg-red-500 opacity-0 cursor-pointer py-12">
           <Link to="/callus" className="block h-full w-full flex items-center justify-center text-white">
             CALLUS
           </Link>
@@ -43,8 +43,8 @@ const Home = () => {
       </div>
 
       {/* WADER Button*/}
-      <div className="absolute" style={{ top: '51%', right: '5%', transform: 'translate(-50%, -50%)', zIndex: 10 }}>
-        <div className="w-[10vw] h-[5vh] bg-red-500 opacity-0 cursor-pointer py-9">
+      <div className="absolute" style={{ top: '51%', right: '5%', transform: 'translate(-40%, -45%)', zIndex: 10 }}>
+        <div className="w-[12vw] h-[16vh] bg-red-500 opacity-0 cursor-pointer py-9">
           <Link to="/wader" className="block h-full w-full flex items-center justify-center text-white">
             WADER
           </Link>
