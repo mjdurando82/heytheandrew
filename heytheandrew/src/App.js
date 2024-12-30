@@ -17,16 +17,16 @@ const App = () => {
     <div>
       <main>
         <Routes>
-          <Route exaxt path="/" element={<Home />} />
-          <Route exaxt path="/ap-art" element={<ApArt />} />
-          <Route exaxt path="/ap-art-2" element={<ApArt2 />} />
-          <Route exaxt path="/cbs" element={<Cbs />} />
-          <Route exaxt path="/callus" element={<Callus />} />
-          <Route exaxt path="/callus-2" element={<Callus2 />} />
-          <Route exaxt path="/callus-3" element={<Callus3 />} />
-          <Route exaxt path="/wader" element={<Wader />} />
-          <Route exaxt path="/graphic-design" element={<GraphicDesign />} />
-          <Route exaxt path="/graphic-design-2" element={<GraphicDesign2 />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/ap-art" element={<ApArt />} />
+          <Route exact path="/ap-art-2" element={<ApArt2 />} />
+          <Route exact path="/cbs" element={<Cbs />} />
+          <Route exact path="/callus" element={<Callus />} />
+          <Route exact path="/callus-2" element={<Callus2 />} />
+          <Route exact path="/callus-3" element={<Callus3 />} />
+          <Route exact path="/wader" element={<Wader />} />
+          <Route exact path="/graphic-design" element={<GraphicDesign />} />
+          <Route exact path="/graphic-design-2" element={<GraphicDesign2 />} />
         </Routes>
       </main>
     </div>
